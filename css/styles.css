@@ -1,0 +1,316 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #111;
+  background-color: #fff;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.orange {
+  color: #fd9222;
+}
+
+/* #region Header */
+.header {
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111;
+}
+
+.header-logo-accent {
+  font-style: italic;
+}
+
+.nav {
+}
+.nav-list {
+}
+.nav-item {
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #fd9222;
+}
+/* #endregion Header */
+
+/* #region Hero */
+.hero {
+  background-color: #1e1823;
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.hero-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  background-color: #fd9222;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #fd9222;
+  background-color: #fcf1e0;
+}
+
+.hero-link-made {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+.hero-link-down {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.hero-link-made:hover,
+.hero-link-made:focus,
+.hero-link-down:hover,
+.hero-link-down:focus {
+  color: #fd9222;
+}
+/* #endregion Hero */
+
+/* #region Benefits */
+.benefits {
+  background-color: #1e1823;
+}
+
+.benefits-title {
+}
+
+.benefits-list {
+}
+
+.benefits-item {
+}
+
+.benefits-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+
+.benefits-text {
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+/* #endregion Benefits */
+
+/* #region Ingredients */
+.ingredients {
+}
+
+.ingredients-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.ingredients-descr {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.ingredients-card-list {
+}
+
+.ingredients-card-item {
+}
+
+.ingredients-card-img {
+}
+
+.ingredients-card-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #fff;
+}
+/* #endregion Ingredients */
+
+/* #region Made */
+.made {
+}
+
+.made-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.made-img {
+}
+
+.made-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+}
+.made-list {
+}
+
+.made-item {
+}
+
+.made-descr {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+/* #endregion Made */
+
+/* #region Reviews */
+.review {
+}
+
+.review-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.review-list {
+}
+
+.review-item {
+}
+
+.review-img {
+}
+
+.review-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.review-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.review-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #111;
+  background-color: #fff;
+}
+
+.review-btn:hover,
+.review-btn:focus {
+  color: #fff;
+  background-color: #fd9222;
+}
+/* #endregion Reviews */
+
+/* #region Footer */
+.footer {
+  background-color: #1e1823;
+}
+
+.footer-descr {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-addr {
+  font-style: normal;
+}
+
+.footer-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #fff;
+}
+
+.footer-contacts-list {
+}
+
+.footer-contacts-item {
+}
+
+.footer-contacts-link {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-nav {
+}
+
+.footer-nav-list {
+}
+
+.footer-nav-item {
+}
+
+.footer-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus,
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+  color: #fd9222;
+}
+/* #endregion Footer */
