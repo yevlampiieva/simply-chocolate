@@ -24,8 +24,11 @@
     <header class="header">
       <div class="container header-container">
         <a class="header-logo" href="./index.html"
-          ><span class="header-logo-accent">Simply</span> chocolate</a
-        >
+          ><div><span class="header-logo-accent">Simply</span> chocolate</div>
+          <svg class="logo-icon" width="24" height="24">
+            <use href="./images/icons.svg#chocolate-logo"></use>
+          </svg>
+        </a>
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
@@ -33,6 +36,22 @@
             <li class="nav-item"><a class="nav-link" href="#review">Chocolate is loved</a></li>
           </ul>
         </nav>
+        <ul class="soc-media-list">
+          <li class="soc-media-item">
+            <a href="" class="soc-media-link">
+              <svg class="header-icon" width="24" height="24">
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc-media-item">
+            <a href="" class="soc-media-link">
+              <svg class="header-icon" width="24" height="24">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
     <!-- #endregion Header -->
@@ -47,7 +66,14 @@
           <div class="hero-btns">
             <button class="hero-btn" type="button">Buy now</button>
             <a class="hero-link-made" href="#made">How it’s made</a>
-            <a class="hero-link-down" href="#footer">scroll down</a>
+            <a class="hero-link-down" href="#footer"
+              >scroll down
+              <span class="hero-link-down-ellipse">
+                <svg class="hero-icon" width="22" height="22">
+                  <use href="./images/icons.svg#scroll"></use>
+                </svg>
+              </span>
+            </a>
           </div>
         </div>
       </section>
@@ -59,6 +85,11 @@
           <h2 class="benefits-title visually-hidden">Benefits</h2>
           <ul class="benefits-list">
             <li class="benefits-item">
+              <span class="benefits-img">
+                <svg class="benefits-icon" width="32" height="32">
+                  <use href="./images/icons.svg#chocolate"></use>
+                </svg>
+              </span>
               <h3 class="benefits-subtitle">Unsurpassed taste</h3>
               <p class="benefits-text">
                 Crafted with the finest quality cocoa beans and a dedication to perfection, each
@@ -67,6 +98,11 @@
               </p>
             </li>
             <li class="benefits-item">
+              <span class="benefits-img">
+                <svg class="benefits-icon" width="32" height="32">
+                  <use href="./images/icons.svg#coin"></use>
+                </svg>
+              </span>
               <h3 class="benefits-subtitle">Affordable price</h3>
               <p class="benefits-text">
                 Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's
@@ -76,6 +112,11 @@
               </p>
             </li>
             <li class="benefits-item">
+              <span class="benefits-img">
+                <svg class="benefits-icon" width="32" height="32">
+                  <use href="./images/icons.svg#spoon"></use>
+                </svg>
+              </span>
               <h3 class="benefits-subtitle">Own production</h3>
               <p class="benefits-text">
                 We take pride in our own production process, ensuring that every step is carefully
@@ -111,6 +152,18 @@
                 width="206"
               />
               <p class="ingredients-card-text">Milk chocolate</p>
+
+              <div class="ingredients-overlay">
+                <h3 class="ingredients-overlay-title">Milk chocolate</h3>
+                <span class="ingredients-overlay-name">chocolate</span>
+                <span class="ingredients-overlay-benefits">the benefits</span>
+                <p class="ingredients-overlay-descr">
+                  Milk chocolate is a solid chocolate confectionery containing cocoa, sugar and
+                  milk. It is the most consumed type of chocolate. Chocolate was originally sold and
+                  consumed as a beverage in pre-Columbian times. Although four-fifths of all milk
+                  chocolate is sold in the United States and Europe.
+                </p>
+              </div>
             </li>
             <li class="ingredients-card-item">
               <img
@@ -120,6 +173,18 @@
                 width="206"
               />
               <p class="ingredients-card-text">Milk</p>
+
+              <div class="ingredients-overlay">
+                <h3 class="ingredients-overlay-title">Milk</h3>
+                <span class="ingredients-overlay-name">milk </span>
+                <span class="ingredients-overlay-benefits">the benefits</span>
+                <p class="ingredients-overlay-descr">
+                  Milk is a white liquid food produced by the mammary glands of mammals. It is the
+                  primary source of nutrition for young mammals (including breastfed human infants)
+                  before they are able to digest solid food.Early-lactation milk, which is called
+                  colostrum, contains antibodies that strengthen the immune system.
+                </p>
+              </div>
             </li>
             <li class="ingredients-card-item">
               <img
@@ -129,6 +194,18 @@
                 width="206"
               />
               <p class="ingredients-card-text">Nuts</p>
+
+              <div class="ingredients-overlay">
+                <h3 class="ingredients-overlay-title">Nuts</h3>
+                <span class="ingredients-overlay-name">nuts</span>
+                <span class="ingredients-overlay-benefits">the benefits</span>
+                <p class="ingredients-overlay-descr">
+                  Almonds, pistachios, and walnuts are some types of nuts that contain healthy
+                  nutrients. When eaten as part of a nutrient-dense diet, these 9 nuts may offer
+                  benefits such as reducing your risk of heart disease. They’re a good source of
+                  fiber, healthy fats, and plant protein. Plus, they’re great on their own.
+                </p>
+              </div>
             </li>
             <li class="ingredients-card-item">
               <img
@@ -138,6 +215,18 @@
                 width="206"
               />
               <p class="ingredients-card-text">Semi - sweet chocolate</p>
+
+              <div class="ingredients-overlay">
+                <h3 class="ingredients-overlay-title">semi - sweet chocolate</h3>
+                <span class="ingredients-overlay-name">sweet chocolate</span>
+                <span class="ingredients-overlay-benefits">the benefits</span>
+                <p class="ingredients-overlay-descr">
+                  Semi-sweet chocolate has a cocoa solid content of 35 to 65%. One of the best ways
+                  to gain an understanding of this type of chocolate is to compare it to a different
+                  type of chocolate. Semisweet is darker than milk chocolate. In a taste comparison,
+                  it has a slightly bitter taste whereas milk chocolate is sweeter and more mellow.
+                </p>
+              </div>
             </li>
           </ul>
         </div>
@@ -161,26 +250,51 @@
               </h3>
               <ul class="made-list">
                 <li class="made-item">
+                  <span>
+                    <svg class="" width="8" height="8">
+                      <use href="./images/icons.svg#ellipse"></use>
+                    </svg>
+                  </span>
                   <p class="made-descr">
                     Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa
                     powder.
                   </p>
                 </li>
                 <li class="made-item">
-                  <p class="made-desc">
+                  <span>
+                    <svg class="" width="8" height="8">
+                      <use href="./images/icons.svg#ellipse"></use>
+                    </svg>
+                  </span>
+                  <p class="made-descr">
                     At the same time, prepare a water bath. Melt the butter on it.
                   </p>
                 </li>
                 <li class="made-item">
+                  <span>
+                    <svg class="" width="8" height="8">
+                      <use href="./images/icons.svg#ellipse"></use>
+                    </svg>
+                  </span>
                   <p class="made-descr">
                     "Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone
                     spatula so that the mass becomes uniform and silky.
                   </p>
                 </li>
                 <li class="made-item">
+                  <span>
+                    <svg class="" width="8" height="8">
+                      <use href="./images/icons.svg#ellipse"></use>
+                    </svg>
+                  </span>
                   <p class="made-descr">Heat the mixture over low heat, letting it barely boil.</p>
                 </li>
                 <li class="made-item">
+                  <span>
+                    <svg class="" width="8" height="8">
+                      <use href="./images/icons.svg#ellipse"></use>
+                    </svg>
+                  </span>
                   <p class="made-descr">
                     Pour the chocolate into special containers (can be replaced with ice molds).
                     Allow to cool and harden.
