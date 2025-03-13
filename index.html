@@ -352,7 +352,7 @@
               </p>
             </li>
           </ul>
-          <button class="review-btn" type="button">Leave a review</button>
+          <button class="review-btn" type="button" data-modal-open>Leave a review</button>
         </div>
       </section>
       <!-- #endregion Reviews -->
@@ -380,19 +380,132 @@
           </address>
         </div>
 
-        <nav class="footer-nav">
-          <ul class="footer-nav-list">
-            <li class="footer-nav-item"><a class="footer-nav-link" href="./index.html">Home</a></li>
-            <li class="footer-nav-item">
-              <a class="footer-nav-link" href="#made">How it’s made?</a>
-            </li>
-            <li class="footer-nav-item">
-              <a class="footer-nav-link" href="#review">Chocolate is loved</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="footer-container-bottom">
+          <nav class="footer-nav">
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <a class="footer-nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="footer-nav-item">
+                <a class="footer-nav-link" href="#made">How it’s made?</a>
+              </li>
+              <li class="footer-nav-item">
+                <a class="footer-nav-link" href="#review">Chocolate is loved</a>
+              </li>
+            </ul>
+          </nav>
+
+          <form class="footer-form">
+            <label class="footer-form-label" for="user-email"></label>
+            <input
+              class="footer-form-input"
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="Enter your email"
+              required
+            />
+            <button class="footer-form-btn" type="submit">Subscribe</button>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- #endregion Footer -->
+
+    <!-- #region Modal -->
+    <div class="modal-backdrop" data-modal>
+      <div class="modal">
+        <svg class="modal-close-icon" width="28" height="28" data-modal-close>
+          <use href="./images/icons.svg#close"></use>
+        </svg>
+
+        <p class="modal-desc">Leave a review about <span class="orange">our chocolate</span></p>
+
+        <form class="modal-form">
+          <div class="modal-form-input-container">
+            <label class="modal-form-input-label" for="user-name">Name</label>
+            <div class="modal-form-input-wraper">
+              <input
+                class="modal-form-input"
+                id="user-name"
+                type="text"
+                name="user-name"
+                pattern="^[a-zA-Z]+$"
+                minlength="2"
+                required
+              />
+              <svg class="modal-form-input-icon" width="24" height="24">
+                <use href="./images/icons.svg#user"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="modal-form-input-container">
+            <label class="modal-form-input-label" for="user-mail">Email</label>
+            <div class="modal-form-input-wraper">
+              <input
+                class="modal-form-input"
+                id="user-mail"
+                type="email"
+                name="user-email"
+                required
+              />
+              <svg class="modal-form-input-icon" width="24" height="24">
+                <use href="./images/icons.svg#mail"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="modal-form-input-container">
+            <label class="modal-form-input-label" for="user-tel">Phone number</label>
+            <div class="modal-form-input-wraper">
+              <input
+                class="modal-form-input"
+                id="user-tel"
+                type="tel"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="xxx-xxx-xx-xx"
+                required
+              />
+              <svg class="modal-form-input-icon" width="24" height="24">
+                <use href="./images/icons.svg#phone"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="modal-form-input-container">
+            <label class="modal-form-comments-label" for="user-comments">Comment</label>
+            <textarea
+              class="modal-form-comments"
+              name="user-comments"
+              id="user-comments"
+              placeholder="Enter text"
+            ></textarea>
+          </div>
+
+          <div class="modal-form-check-container">
+            <input
+              class="modal-form-user-policy visually-hidden"
+              id="user-policy"
+              type="checkbox"
+              name="user-policy"
+            />
+            <label class="modal-form-user-policy-label" for="user-policy"
+              ><span class="modal-form-custom-check">
+                <svg class="modal-check-icon" width="10" height="10">
+                  <use href="./images/icons.svg#check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="modal-form-user-policy-link" href="">Privacy Policy</a>
+            </label>
+          </div>
+
+          <button class="modal-form-submit-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <!-- #endregion Moodal -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
